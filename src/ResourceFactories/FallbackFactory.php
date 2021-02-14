@@ -4,6 +4,7 @@ namespace Apie\CorePlugin\ResourceFactories;
 
 use Apie\Core\Exceptions\CouldNotConstructApiResourceClassException;
 use Apie\Core\Exceptions\InvalidClassTypeException;
+use Apie\Core\IdentifierExtractor;
 use Apie\Core\Interfaces\ApiResourceFactoryInterface;
 use Apie\Core\Interfaces\ApiResourcePersisterInterface;
 use Apie\Core\Interfaces\ApiResourceRetrieverInterface;
@@ -11,7 +12,6 @@ use Apie\CorePlugin\DataLayers\MemoryDataLayer;
 use Apie\ObjectAccessNormalizer\ObjectAccess\ObjectAccessInterface;
 use ReflectionClass;
 use ReflectionException;
-use W2w\Lib\Apie\Core\IdentifierExtractor;
 
 class FallbackFactory implements ApiResourceFactoryInterface
 {

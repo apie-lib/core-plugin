@@ -30,6 +30,7 @@
   },
   "require-dev": {
     "apie/mock-objects": "dev-main",
+    "phpspec/prophecy-phpunit": "^2.0",
     "phpunit/phpunit": "^9.5"
   },
   "minimum-stability": "dev",
